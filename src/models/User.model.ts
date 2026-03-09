@@ -21,7 +21,6 @@ export interface User extends Document {
 	username: String;
 	email: String;
 	password: String;
-	createdAt: Date;
 	verifyCode: String;
 	verifyCodeExpiry: String;
 	isVerified: Boolean;
